@@ -1,0 +1,12 @@
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - chroma_data:/app/data/chroma
+
+volumes:
+  chroma_data:
