@@ -43,8 +43,6 @@ streamlit run app.py
 docker compose up --build
 ```
 
-Open http://localhost:8501
-
 ## Example questions
 - What is the main objective of this document?
 - Summarize the methodology.
